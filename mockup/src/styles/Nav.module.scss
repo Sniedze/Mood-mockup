@@ -1,0 +1,14 @@
+@import "mixins";
+
+.navigation {
+  background: black;
+  top: 0;
+  width: 100vw;
+  height: 60px;
+  position: fixed;
+  overflow: hidden;
+  //z-index: 500;
+  @include respond(mobile) {
+    width: 100vw;
+  }
+}
